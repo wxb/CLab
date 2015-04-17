@@ -21,4 +21,11 @@ void mikado(int * bah,int * pooh){
 	// In mikado() ,pooh = 2 and &pooh = pooh的内存地址
 	printf("In mikado() ,pooh = %d and &pooh = %p\n",*pooh,pooh);
 	printf("In mikado(),bah = %d and &bah = %p\n",*bah,bah);
-} 
+}
+/*
+stdout copy
+In main(),pooh = 2 and &pooh = 0xbfda6e98
+In main(),bah = 5 and &bah = 0xbfda6e9c
+In mikado() ,pooh = 2 and &pooh = 0xbfda6e98
+In mikado(),bah = 5 and &bah = 0xbfda6e9c
+*/
